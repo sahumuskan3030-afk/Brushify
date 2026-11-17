@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+.editor {
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(239, 221, 221);
+    padding: 15px;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    cursor: text;
+}
+
+/* .editor{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(239, 221, 221);
+    
+} */
+
+.box{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#bg-color{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#t-Color{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.tx-style{
+    
+   border-radius: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.red {
+    background-color: red;
+}
+
+
+/* Text color buttons */
+
+.black {
+    background-color: black;
+}
+
+.tpink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+
+
+/* Common button styling */
+
+.skyblue, .lightgreen, .pink, .red,
+.black, .tpink, .blue, .green {
+
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+    cursor: pointer;
+    display: inline-block;
+}

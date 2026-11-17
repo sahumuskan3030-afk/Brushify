@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+<center>
+<h1>Brushify</h1>
+    <div class="container">
+        <div class="editor" contenteditable="true" id="editor">
+    Write your text here....
+</div>
+ </div>
+
+ <br>
+ <br>
+        <div class="contain">
+        <div class="box">
+            <p>Change your background</p>
+            <hr>
+            <br>
+            <div>
+                <button id="bg-color" class="skyblue" onclick="backgroundcolor('skyblue');"></button>
+                <button id="bg-color" class="lightgreen" onclick="backgroundcolor('lightgreen');"></button>
+                <button id="bg-color" class="pink" onclick="backgroundcolor('pink');"></button>
+                <button id="bg-color" class="red" onclick="backgroundcolor('red');"></button>
+                 <button id="bg-color" class="lightyellow" onclick="backgroundcolor('lightyellow');"></button>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Change text-color</p>
+            <hr>
+            <br>
+            <div>
+                <button id="t-Color" class="black" onclick="textcolor('black')"></button>
+
+              <button id="t-Color" class="tpink" onclick="textcolor('pink')"></button>
+
+             <button id="t-Color" class="blue" onclick="textcolor('blue')"></button>
+
+             <button id="t-Color" class="green" onclick="textcolor('green')"></button>
+             <button id="t-Color" class="yellow" onclick="textcolor('yellow')"></button>
+
+
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Change text-Style</p>
+            <hr>
+            <br>
+            <div>
+
+                
+
+                <button class="tx-style" onclick="fontstyle('Arial');">hello</button>
+                <button class="tx-style" onclick="fontstyle('sans-serif');">hello</button>
+                <button class="tx-style" onclick="fontstyle('Times New Rom');">hello</button>
+                <button class="tx-style" onclick="fontstyle('cursive');">hello</button>
+            </div>
+        </div>
+        </div>
+   
+</center>
+</body>
+
+<script>
+   
+
+   function backgroundcolor(color) {
+    document.getElementById("editor").style.backgroundColor = color;
+}
+
+function textcolor(color) {
+    document.getElementById("editor").style.color = color;
+}
+
+    
+
+function fontstyle(font) {
+    document.getElementById("editor").style.fontFamily = font;
+}
+
+
+</script>
+</html>
